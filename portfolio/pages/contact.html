@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact - Get in touch for cybersecurity opportunities and collaborations">
+    <title>Contact - Cybersecurity Portfolio</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <a href="../index.html">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>CyberProfile</span>
+                    </a>
+                </div>
+
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="../index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="skills.html" class="nav-link">Skills</a></li>
+                    <li><a href="projects.html" class="nav-link">Projects</a></li>
+                    <li><a href="education.html" class="nav-link">Education</a></li>
+                    <li><a href="tools.html" class="nav-link">Tools</a></li>
+                    <li><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li><a href="contact.html" class="nav-link cta">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Get In Touch</h1>
+            <p>I'm always interested in discussing cybersecurity, collaboration, and opportunities</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <h2>Send Me a Message</h2>
+                    
+                    <div id="successMessage" class="success-message" style="display: none;">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                            <h4>Message Sent Successfully!</h4>
+                            <p>Thank you for reaching out. I'll get back to you as soon as possible.</p>
+                        </div>
+                    </div>
+
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number (Optional)</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject...</option>
+                                <option value="opportunity">Job Opportunity</option>
+                                <option value="collaboration">Collaboration / Research</option>
+                                <option value="interview">Interview Request</option>
+                                <option value="consulting">Consulting Inquiry</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group full">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-large">
+                            Send Message
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="contact-info-wrapper">
+                    <h2>Contact Information</h2>
+
+                    <div class="contact-method">
+                        <div class="method-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="method-details">
+                            <h4>Email</h4>
+                            <a href="mailto:your.email@example.com">your.email@example.com</a>
+                            <p>Best for inquiries and detailed discussions</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-method">
+                        <div class="method-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="method-details">
+                            <h4>LinkedIn</h4>
+                            <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a>
+                            <p>Connect for professional networking</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-method">
+                        <div class="method-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="method-details">
+                            <h4>GitHub</h4>
+                            <a href="https://github.com/yourprofile" target="_blank">github.com/yourprofile</a>
+                            <p>View my code and projects</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-method">
+                        <div class="method-icon">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <div class="method-details">
+                            <h4>Twitter/X</h4>
+                            <a href="https://twitter.com/yourhandle" target="_blank">@yourhandle</a>
+                            <p>Follow for cybersecurity updates</p>
+                        </div>
+                    </div>
+
+                    <!-- Quick Response Info -->
+                    <div class="response-info">
+                        <h4>Response Time</h4>
+                        <p>
+                            I aim to respond to all messages within 24-48 hours. For urgent matters or collaboration opportunities, 
+                            please specify in your message.
+                        </p>
+                    </div>
+
+                    <!-- Availability -->
+                    <div class="availability">
+                        <h4>Availability</h4>
+                        <div class="availability-items">
+                            <div class="availability-item">
+                                <span class="label">Job Opportunities</span>
+                                <span class="status available">Available</span>
+                            </div>
+                            <div class="availability-item">
+                                <span class="label">Freelance Projects</span>
+                                <span class="status available">Available</span>
+                            </div>
+                            <div class="availability-item">
+                                <span class="label">Research Collaboration</span>
+                                <span class="status available">Available</span>
+                            </div>
+                            <div class="availability-item">
+                                <span class="label">Speaking Engagements</span>
+                                <span class="status">Contact to Discuss</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Frequently Asked Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h4>What types of opportunities are you interested in?</h4>
+                    <p>
+                        I'm interested in roles focused on incident response, digital forensics, threat analysis, and security research. 
+                        I'm also open to opportunities in SOC operations, vulnerability management, and security engineering.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>Are you available for consulting or contract work?</h4>
+                    <p>
+                        Yes, I'm available for select consulting projects related to security assessments, forensic analysis, and 
+                        incident response. Please reach out with details about your needs.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>Can I use your work or projects for educational purposes?</h4>
+                    <p>
+                        Yes, most of my projects are designed for educational purposes. Please reach out if you'd like to discuss 
+                        specific use cases or collaborations.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>Do you do security training or workshops?</h4>
+                    <p>
+                        I'm open to discussing opportunities for training sessions, workshops, or mentoring. Please contact me with 
+                        details about your requirements.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>How quickly can you respond to incident response requests?</h4>
+                    <p>
+                        This depends on the nature and scope of the incident. For critical security incidents, I prioritize rapid 
+                        response. Contact me immediately for urgent matters.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>What's your approach to security research and responsible disclosure?</h4>
+                    <p>
+                        I follow responsible disclosure practices and industry standards. All security research is conducted ethically 
+                        with proper authorization and compliance with applicable laws and regulations.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>CyberProfile</h4>
+                    <p>A modern portfolio showcasing cybersecurity expertise and digital forensics research.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Social</h4>
+                    <div class="social-links">
+                        <a href="https://linkedin.com" target="_blank" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com" target="_blank" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="mailto:hello@example.com" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Cybersecurity Portfolio. Designed with <span class="heart">♡</span> for security professionals.</p>
+            </div>
+        </div>
+    </footer>
+
+    <style>
+        .page-header {
+            background: linear-gradient(135deg, rgba(0, 212, 255, 0.1) 0%, rgba(124, 58, 237, 0.1) 100%);
+            border-bottom: 1px solid var(--border-color);
+            padding: 120px 0 80px;
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        .page-header h1 {
+            margin-bottom: 1rem;
+            background: var(--gradient-text);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .page-header p {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+        }
+
+        .contact-section {
+            padding: 6rem 0;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+        }
+
+        .contact-form-wrapper h2,
+        .contact-info-wrapper h2 {
+            margin-bottom: 2rem;
+            color: var(--text-primary);
+        }
+
+        /* Success Message */
+        .success-message {
+            background: rgba(39, 201, 63, 0.15);
+            border: 1px solid rgba(39, 201, 63, 0.3);
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            display: flex;
+            gap: 1rem;
+            align-items: flex-start;
+            animation: slideInUp 0.5s ease-out;
+        }
+
+        .success-message i {
+            color: #27c93f;
+            font-size: 1.5rem;
+            flex-shrink: 0;
+        }
+
+        .success-message h4 {
+            color: #27c93f;
+            margin-bottom: 0.25rem;
+        }
+
+        .success-message p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Form Styles */
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-group.full {
+            grid-column: span 2;
+        }
+
+        .form-group label {
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            padding: 0.75rem 1rem;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 0.4rem;
+            color: var(--text-primary);
+            font-size: 0.95rem;
+            font-family: inherit;
+            transition: var(--transition);
+        }
+
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 10px rgba(0, 212, 255, 0.2);
+            background: rgba(0, 212, 255, 0.03);
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            font-family: 'Inter', sans-serif;
+            line-height: 1.5;
+        }
+
+        /* Contact Methods */
+        .contact-method {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            display: flex;
+            gap: 1rem;
+            transition: var(--transition);
+        }
+
+        .contact-method:hover {
+            border-color: var(--primary-color);
+            background: rgba(0, 212, 255, 0.05);
+        }
+
+        .method-icon {
+            font-size: 2rem;
+            color: var(--primary-color);
+            flex-shrink: 0;
+        }
+
+        .method-details h4 {
+            margin-bottom: 0.5rem;
+            color: var(--text-primary);
+        }
+
+        .method-details a {
+            display: inline-block;
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+
+        .method-details p {
+            font-size: 0.85rem;
+            margin: 0;
+        }
+
+        /* Response & Availability */
+        .response-info,
+        .availability {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .response-info:last-child,
+        .availability {
+            margin-bottom: 0;
+        }
+
+        .response-info h4,
+        .availability h4 {
+            color: var(--primary-color);
+            margin-bottom: 0.75rem;
+        }
+
+        .availability-items {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .availability-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.75rem 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .availability-item:last-child {
+            border-bottom: none;
+        }
+
+        .label {
+            font-weight: 500;
+            color: var(--text-secondary);
+        }
+
+        .status {
+            font-size: 0.85rem;
+            padding: 0.25rem 0.6rem;
+            border-radius: 0.3rem;
+            font-weight: 600;
+        }
+
+        .status.available {
+            background: rgba(39, 201, 63, 0.15);
+            color: #27c93f;
+        }
+
+        /* FAQ Section */
+        .faq-section {
+            background: var(--bg-secondary);
+            padding: 6rem 0;
+        }
+
+        .faq-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .faq-item {
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border-color);
+            border-radius: 0.5rem;
+            padding: 2rem;
+            transition: var(--transition);
+        }
+
+        .faq-item:hover {
+            border-color: var(--primary-color);
+            background: rgba(0, 212, 255, 0.05);
+        }
+
+        .faq-item h4 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .faq-item p {
+            margin: 0;
+            line-height: 1.7;
+        }
+
+        @media (max-width: 768px) {
+            .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .faq-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .page-header {
+                padding: 100px 0 60px;
+            }
+
+            .availability-item {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.5rem;
+            }
+        }
+    </style>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tools & Technologies - Cybersecurity tools, proficiency levels, and technical stack">
+    <title>Tools & Technologies - Cybersecurity Portfolio</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <a href="../index.html">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>CyberProfile</span>
+                    </a>
+                </div>
+
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="../index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="skills.html" class="nav-link">Skills</a></li>
+                    <li><a href="projects.html" class="nav-link">Projects</a></li>
+                    <li><a href="education.html" class="nav-link">Education</a></li>
+                    <li><a href="tools.html" class="nav-link">Tools</a></li>
+                    <li><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li><a href="contact.html" class="nav-link cta">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Tools & Technologies</h1>
+            <p>Comprehensive toolkit for cybersecurity and digital forensics</p>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section class="tools-section">
+        <div class="container">
+            <h2 class="section-title">Primary Tools & Platforms</h2>
+
+            <!-- Forensics Tools -->
+            <div class="tools-category">
+                <h3><i class="fas fa-microscope"></i> Digital Forensics Tools</h3>
+                <div class="tools-grid">
+                    <div class="tool-card">
+                        <div class="tool-header">
+                            <h4>Autopsy</h4>
+                            <span class="proficiency expert">Expert</span>
+                        </div>
+                        <p>Digital forensic platform for file system analysis, artifact recovery, and timeline analysis.</p>
+                        <div class="usage-rate">
+                            <span>Usage: 90%</span>
+                            <div class="rate-bar">
+                                <div class="rate-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tool-card">
+                        <div class="tool-header">
+                            <h4>FTK Imager</h4>
+                            <span class="proficiency expert">Expert</span>
+                        </div>
+                        <p>Forensic imaging tool for evidence acquisition and file recovery.</p>
+                        <div class="usage-rate">
+                            <span>Usage: 85%</span>
+                            <div class="rate-bar">
+                                <div class="rate-fill" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tool-card">
+                        <div class="tool-header">
+                            <h4>Bulk Extractor</h4>
+                            <span class="proficiency advanced">Advanced</span>
+                        </div>
+                        <p>Automated artifact extraction from forensic images.</p>
+                        <div class="usage-rate">
+                            <span>Usage: 75%</span>
+                            <div class="rate-bar">
+                                <div class="rate-fill" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tool-card">
+                        <div class="tool-header">
+                            <h4>Registry Explorer / EVTX Parser</h4>
+                            <span class="proficiency expert">Expert</span>
+                        </div>
+                        <p>Windows registry and event log analysis.</p>
+                        <div class="usage-rate">
+                            <span>Usage: 88%</span>
+                            <div class="rate-bar">
+                                <div class="rate-fill" style="width: 88%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Network Analysis Tools -->
+            <div class="tools-category">
+                <h3><i class="fas fa-network-wired"></i> Network Analysis & Security Testing</h3>
+                <div class="tools-grid">
+                    <div class="tool-card">
+                        <div class="tool-header">
+                            <h4>Wireshark</h4>
+                            <span class="proficiency expert">Expert</span>
+                        </div>
+                        <p>Packet capture and network protocol analysis.</p>
+                        <div class="usage-rate">
+                            <span>Usage: 92%</span>
+                            <div class="rate-bar">
+                                <div class="rate-fill" style="width: 92%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tool-card">
+                        <div class="tool-header">
+                            <h4>Nmap</h4>
+                            <span class="proficiency expert">Expert</span>
+                        </div>
+                        <p>Network reconnaissance, port scanning, and service enumeration.</p>
+                        <div class="usage-rate">
+                            <span>Usage: 90%</span>
+                            <div class="rate-bar">
+                                <div class="rate-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tool-card">
+                        <div class="tool-header">
+                            <h4>Metasploit Framework</h4>
+                            <span class="proficiency advanced">Advanced</span>
+                        </div>
+                        <p>Penetration testing and exploitation framework.</p>
+                        <div class="usage-rate">
+                            <span>Usage: 80%</span>
+                            <div class="rate-bar">
+                                <div class="rate-fill" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tool-card">
+                        <div class="tool-header">
+                            <h4>Burp Suite</h4>
+                            <span class="proficiency intermediate">Intermediate</span>
+                        </div>
+                        <p>Web application security testing platform.</p>
+                        <div class="usage-rate">
+                            <span>Usage: 72%</span>
+                            <div class="rate-bar">
+                                <div class="rate-fill" style="width: 72%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tool-card">
+                        <div class="tool-header">
+                            <h4>Suricata / Snort</h4>
+                            <span class="proficiency advanced">Advanced</span>
+                        </div>
+                        <p>Network intrusion detection systems.</p>
+                        <div class="usage-rate">
+                            <span>Usage: 78%</span>
+                            <div class="rate-bar">
+                                <div class="rate-fill" style="width: 78%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tool-card">
+                        <div class="tool-header">
+                            <h4>Zeek (formerly Bro)</h4>
+                            <span class="proficiency intermediate">Intermediate</span>
+                        </div>
+                        <p>Network traffic analysis and monitoring.</p>
+                        <div class="usage-rate">
+                            <span>Usage: 70%</span>
+                            <div class="rate-bar">
+                                <div class="rate-fill" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Operating Systems & Distros -->
+            <div class="tools-category">
+                <h3><i class="fab fa-linux"></i> Operating Systems & Linux Distributions</h3>
+                <div class="tools-grid">
+                    <div class="tool-card">
+                        <div class="tool-header">
+                            <h4>Kali Linux</h4>
+                            <span class="proficiency expert">Expert</span>
+                        </div>
+                        <p>Penetration testing and security assessment OS.</p>
+                        <div class="usage-rate">
+                            <span>Usage: 95%</span>
+                            <div class="rate-bar">
+                                <div class="rate-fill" style="width: 95%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tool-card">
+                        <div class="tool-header">
+                            <h4>Ubuntu / Debian</h4>
+                            <span class="proficiency expert">Expert</span>
+                        </div>
+                        <p>Server and system administration.</p>
+                        <div class="usage-rate">
+                            <span>Usage: 90%</span>
+                            <div class="rate-bar">
+                                <div class="rate-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tool-card">
+                        <div class="tool-header">
+                            <h4>Windows</h4>
+                            <span class="proficiency advanced">Advanced</span>
+                        </div>
+                        <p>System administration and forensic analysis.</p>
+                        <div class="usage-rate">
+                            <span>Usage: 85%</span>
+                            <div class="rate-bar">
+                                <div class="rate-fill" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tool-card">
+                        <div class="tool-header">
+                            <h4>DEFT Linux</h4>
+                            <span class="proficiency advanced">Advanced</span>
+                        </div>
+                        <p>Forensic and penetration testing OS.</p>
+                        <div class="usage-rate">
+                            <span>Usage: 75%</span>
+                            <div class="rate-bar">
+                                <div class="rate-fill" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SIEM & Logging -->
+            <div class="tools-category">
+                <h3><i class="fas fa-chart-bar"></i> SIEM & Log Management</h3>
+                <div class="tools-grid">
+                    <div class="tool-card">
+                        <div class="tool-header">
+                            <h4>Splunk</h4>
+                            <span class="proficiency intermediate">Intermediate</span>
+                        </div>
+                        <p>Log aggregation and security event management.</p>
+                        <div class="usage-rate">
+                            <span>Usage: 72%</span>
+                            <div class="rate-bar">
+                                <div class="rate-fill" style="width: 72%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tool-card">
+                        <div class="tool-header">
+                            <h4>ELK Stack (Elasticsearch, Logstash, Kibana)</h4>
+                            <span class="proficiency intermediate">Intermediate</span>
+                        </div>
+                        <p>Open-source SIEM and log analysis platform.</p>
+                        <div class="usage-rate">
+                            <span>Usage: 75%</span>
+                            <div class="rate-bar">
+                                <div class="rate-fill" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tool-card">
+                        <div class="tool-header">
+                            <h4>Graylog</h4>
+                            <span class="proficiency intermediate">Intermediate</span>
+                        </div>
+                        <p>Centralized log management system.</p>
+                        <div class="usage-rate">
+                            <span>Usage: 70%</span>
+                            <div class="rate-bar">
+                                <div class="rate-fill" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Development & Scripting -->
+            <div class="tools-category">
+                <h3><i class="fas fa-code"></i> Development & Scripting Languages</h3>
+                <div class="tools-grid">
+                    <div class="tool-card">
+                        <div class="tool-header">
+                            <h4>Python</h4>
+                            <span class="proficiency intermediate">Intermediate</span>
+                        </div>
+                        <p>Automation, scripting, and security tool development.</p>
+                        <div class="usage-rate">
+                            <span>Usage: 80%</span>
+                            <div class="rate-bar">
+                                <div class="rate-fill" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tool-card">
+                        <div class="tool-header">
+                            <h4>Bash/Shell</h4>
+                            <span class="proficiency expert">Expert</span>
+                        </div>
+                        <p>Linux scripting and system administration.</p>
+                        <div class="usage-rate">
+                            <span>Usage: 92%</span>
+                            <div class="rate-bar">
+                                <div class="rate-fill" style="width: 92%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tool-card">
+                        <div class="tool-header">
+                            <h4>SQL</h4>
+                            <span class="proficiency intermediate">Intermediate</span>
+                        </div>
+                        <p>Database querying and forensic analysis.</p>
+                        <div class="usage-rate">
+                            <span>Usage: 75%</span>
+                            <div class="rate-bar">
+                                <div class="rate-fill" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tool-card">
+                        <div class="tool-header">
+                            <h4>PowerShell</h4>
+                            <span class="proficiency intermediate">Intermediate</span>
+                        </div>
+                        <p>Windows automation and system administration.</p>
+                        <div class="usage-rate">
+                            <span>Usage: 78%</span>
+                            <div class="rate-bar">
+                                <div class="rate-fill" style="width: 78%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Virtualization & Lab -->
+            <div class="tools-category">
+                <h3><i class="fas fa-cube"></i> Virtualization & Lab Infrastructure</h3>
+                <div class="tools-grid">
+                    <div class="tool-card">
+                        <div class="tool-header">
+                            <h4>VirtualBox</h4>
+                            <span class="proficiency expert">Expert</span>
+                        </div>
+                        <p>Virtual machine management and lab environment setup.</p>
+                        <div class="usage-rate">
+                            <span>Usage: 90%</span>
+                            <div class="rate-bar">
+                                <div class="rate-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tool-card">
+                        <div class="tool-header">
+                            <h4>VMware</h4>
+                            <span class="proficiency advanced">Advanced</span>
+                        </div>
+                        <p>Enterprise virtualization platform.</p>
+                        <div class="usage-rate">
+                            <span>Usage: 75%</span>
+                            <div class="rate-bar">
+                                <div class="rate-fill" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tool-card">
+                        <div class="tool-header">
+                            <h4>GNS3</h4>
+                            <span class="proficiency advanced">Advanced</span>
+                        </div>
+                        <p>Network simulation for complex environment setup.</p>
+                        <div class="usage-rate">
+                            <span>Usage: 78%</span>
+                            <div class="rate-bar">
+                                <div class="rate-fill" style="width: 78%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tool-card">
+                        <div class="tool-header">
+                            <h4>Docker</h4>
+                            <span class="proficiency intermediate">Intermediate</span>
+                        </div>
+                        <p>Container-based lab environment setup.</p>
+                        <div class="usage-rate">
+                            <span>Usage: 70%</span>
+                            <div class="rate-bar">
+                                <div class="rate-fill" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional Tools -->
+            <div class="tools-category">
+                <h3><i class="fas fa-toolbox"></i> Additional Tools & Utilities</h3>
+                <div class="tools-grid">
+                    <div class="tool-card">
+                        <div class="tool-header">
+                            <h4>IDA Pro / Ghidra</h4>
+                            <span class="proficiency intermediate">Intermediate</span>
+                        </div>
+                        <p>Reverse engineering and malware analysis.</p>
+                        <div class="usage-rate">
+                            <span>Usage: 70%</span>
+                            <div class="rate-bar">
+                                <div class="rate-fill" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tool-card">
+                        <div class="tool-header">
+                            <h4>Volatility Framework</h4>
+                            <span class="proficiency intermediate">Intermediate</span>
+                        </div>
+                        <p>Memory forensics and volatile data analysis.</p>
+                        <div class="usage-rate">
+                            <span>Usage: 72%</span>
+                            <div class="rate-bar">
+                                <div class="rate-fill" style="width: 72%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tool-card">
+                        <div class="tool-header">
+                            <h4>Yara</h4>
+                            <span class="proficiency intermediate">Intermediate</span>
+                        </div>
+                        <p>Malware identification and classification tool.</p>
+                        <div class="usage-rate">
+                            <span>Usage: 68%</span>
+                            <div class="rate-bar">
+                                <div class="rate-fill" style="width: 68%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tool-card">
+                        <div class="tool-header">
+                            <h4>Git / GitHub</h4>
+                            <span class="proficiency expert">Expert</span>
+                        </div>
+                        <p>Version control and collaborative development.</p>
+                        <div class="usage-rate">
+                            <span>Usage: 85%</span>
+                            <div class="rate-bar">
+                                <div class="rate-fill" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Stack Summary -->
+    <section class="tech-summary">
+        <div class="container">
+            <h2 class="section-title">Technology Stack Summary</h2>
+
+            <div class="summary-grid">
+                <div class="summary-card">
+                    <h4>Expertise Level: Expert (8+)</h4>
+                    <div class="tech-list">
+                        <span class="tech-badge">Kali Linux</span>
+                        <span class="tech-badge">Wireshark</span>
+                        <span class="tech-badge">Nmap</span>
+                        <span class="tech-badge">Autopsy</span>
+                        <span class="tech-badge">Bash</span>
+                        <span class="tech-badge">VirtualBox</span>
+                    </div>
+                </div>
+
+                <div class="summary-card">
+                    <h4>Proficiency Level: Advanced (6-7)</h4>
+                    <div class="tech-list">
+                        <span class="tech-badge">Metasploit</span>
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">Suricata</span>
+                        <span class="tech-badge">GNS3</span>
+                        <span class="tech-badge">FTK Imager</span>
+                        <span class="tech-badge">Linux Admin</span>
+                    </div>
+                </div>
+
+                <div class="summary-card">
+                    <h4>Working Knowledge: Intermediate (4-5)</h4>
+                    <div class="tech-list">
+                        <span class="tech-badge">Burp Suite</span>
+                        <span class="tech-badge">SQL</span>
+                        <span class="tech-badge">PowerShell</span>
+                        <span class="tech-badge">Splunk</span>
+                        <span class="tech-badge">Docker</span>
+                        <span class="tech-badge">IDA Pro</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Deploy These Skills?</h2>
+                <p>I'm equipped with the industry-standard tools to tackle complex cybersecurity challenges.</p>
+                <a href="contact.html" class="btn btn-primary btn-large">
+                    Let's Work Together
+                    <i class="fas fa-handshake"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>CyberProfile</h4>
+                    <p>A modern portfolio showcasing cybersecurity expertise and digital forensics research.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Social</h4>
+                    <div class="social-links">
+                        <a href="https://linkedin.com" target="_blank" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com" target="_blank" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="mailto:hello@example.com" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Cybersecurity Portfolio. Designed with <span class="heart">♡</span> for security professionals.</p>
+            </div>
+        </div>
+    </footer>
+
+    <style>
+        .page-header {
+            background: linear-gradient(135deg, rgba(0, 212, 255, 0.1) 0%, rgba(124, 58, 237, 0.1) 100%);
+            border-bottom: 1px solid var(--border-color);
+            padding: 120px 0 80px;
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        .page-header h1 {
+            margin-bottom: 1rem;
+            background: var(--gradient-text);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .page-header p {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+        }
+
+        .tools-section {
+            padding: 6rem 0;
+        }
+
+        .tools-category {
+            margin-bottom: 4rem;
+        }
+
+        .tools-category h3 {
+            font-size: 1.3rem;
+            color: var(--primary-color);
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid var(--border-color);
+            display: flex;
+            gap: 0.75rem;
+            align-items: center;
+        }
+
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .tool-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+            transition: var(--transition);
+        }
+
+        .tool-card:hover {
+            border-color: var(--primary-color);
+            background: rgba(0, 212, 255, 0.05);
+            transform: translateY(-3px);
+        }
+
+        .tool-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.75rem;
+        }
+
+        .tool-header h4 {
+            color: var(--text-primary);
+            margin: 0;
+        }
+
+        .proficiency {
+            display: inline-block;
+            font-size: 0.7rem;
+            padding: 0.3rem 0.7rem;
+            border-radius: 50px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .proficiency.expert {
+            background: rgba(0, 212, 255, 0.15);
+            color: var(--primary-color);
+        }
+
+        .proficiency.advanced {
+            background: rgba(124, 58, 237, 0.15);
+            color: #a78bfa;
+        }
+
+        .proficiency.intermediate {
+            background: rgba(255, 0, 110, 0.15);
+            color: #f472b6;
+        }
+
+        .tool-card p {
+            font-size: 0.9rem;
+            margin: 0 0 1rem 0;
+            line-height: 1.5;
+        }
+
+        .usage-rate {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 0.5rem;
+        }
+
+        .rate-bar {
+            width: 100%;
+            height: 5px;
+            background: var(--bg-tertiary);
+            border-radius: 3px;
+            overflow: hidden;
+        }
+
+        .rate-fill {
+            height: 100%;
+            background: var(--gradient-primary);
+            border-radius: 3px;
+        }
+
+        /* Tech Summary */
+        .tech-summary {
+            background: var(--bg-secondary);
+            padding: 6rem 0;
+        }
+
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .summary-card {
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border-color);
+            border-radius: 0.5rem;
+            padding: 2rem;
+        }
+
+        .summary-card h4 {
+            color: var(--primary-color);
+            margin-bottom: 1.5rem;
+            font-size: 1.05rem;
+        }
+
+        .tech-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+        }
+
+        .tech-badge {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background: rgba(0, 212, 255, 0.1);
+            border: 1px solid var(--primary-color);
+            border-radius: 50px;
+            font-size: 0.85rem;
+            color: var(--primary-color);
+            font-weight: 500;
+        }
+
+        @media (max-width: 768px) {
+            .tools-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .summary-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .page-header {
+                padding: 100px 0 60px;
+            }
+
+            .tools-category h3 {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>

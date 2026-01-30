@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog & Research - Cybersecurity articles, case studies, and security insights">
+    <title>Blog & Research - Cybersecurity Portfolio</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <a href="../index.html">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>CyberProfile</span>
+                    </a>
+                </div>
+
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="../index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="skills.html" class="nav-link">Skills</a></li>
+                    <li><a href="projects.html" class="nav-link">Projects</a></li>
+                    <li><a href="education.html" class="nav-link">Education</a></li>
+                    <li><a href="tools.html" class="nav-link">Tools</a></li>
+                    <li><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li><a href="contact.html" class="nav-link cta">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Blog & Research</h1>
+            <p>Cybersecurity insights, case studies, and security research</p>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog-section">
+        <div class="container">
+            <div class="blog-header">
+                <h2 class="section-title">Latest Articles</h2>
+                <p class="section-subtitle">Insights from my cybersecurity research, learning journey, and security analysis</p>
+            </div>
+
+            <div class="blog-grid">
+                <!-- Article 1 -->
+                <article class="blog-card featured">
+                    <div class="article-header">
+                        <span class="category">Digital Forensics</span>
+                        <span class="read-time"><i class="fas fa-clock"></i> 8 min read</span>
+                    </div>
+
+                    <h3>Understanding Timeline Analysis in Digital Forensics</h3>
+                    <p class="excerpt">
+                        Timeline analysis is a critical component of digital forensic investigations. In this article, I explore how to construct 
+                        comprehensive timelines from multiple data sources, identify suspicious patterns, and present findings effectively.
+                    </p>
+
+                    <div class="article-content" style="display: none;">
+                        <p>
+                            Timeline analysis involves correlating events from multiple sources to create a chronological narrative of what happened 
+                            on a system. This technique is invaluable for understanding attacker behavior and reconstructing incident sequences.
+                        </p>
+                        <h4>Key Concepts:</h4>
+                        <ul>
+                            <li>Master File Table (MFT) analysis</li>
+                            <li>Windows Event Log correlation</li>
+                            <li>USNJ (Update Sequence Number Journal) examination</li>
+                            <li>Artifact cross-referencing</li>
+                        </ul>
+                        <p>
+                            By systematically analyzing these sources, forensic examiners can create powerful narratives that help identify when 
+                            compromises occurred and what actions the attacker took.
+                        </p>
+                    </div>
+
+                    <div class="article-meta">
+                        <span class="author">
+                            <i class="fas fa-user-circle"></i>
+                            Security Professional
+                        </span>
+                        <span class="date">
+                            <i class="fas fa-calendar"></i>
+                            December 15, 2024
+                        </span>
+                    </div>
+
+                    <a href="#" class="read-more">Read Full Article →</a>
+                </article>
+
+                <!-- Article 2 -->
+                <article class="blog-card">
+                    <div class="article-header">
+                        <span class="category">Incident Response</span>
+                        <span class="read-time"><i class="fas fa-clock"></i> 6 min read</span>
+                    </div>
+
+                    <h3>Rapid Incident Response: A Practical Approach</h3>
+                    <p class="excerpt">
+                        When a security incident occurs, speed and accuracy are critical. This guide outlines practical procedures for rapid threat 
+                        detection, containment, and remediation in production environments.
+                    </p>
+
+                    <div class="article-meta">
+                        <span class="author">
+                            <i class="fas fa-user-circle"></i>
+                            Security Professional
+                        </span>
+                        <span class="date">
+                            <i class="fas fa-calendar"></i>
+                            December 8, 2024
+                        </span>
+                    </div>
+
+                    <a href="#" class="read-more">Read Full Article →</a>
+                </article>
+
+                <!-- Article 3 -->
+                <article class="blog-card">
+                    <div class="article-header">
+                        <span class="category">Network Security</span>
+                        <span class="read-time"><i class="fas fa-clock"></i> 7 min read</span>
+                    </div>
+
+                    <h3>Building Effective IDS/IPS Detection Rules</h3>
+                    <p class="excerpt">
+                        Intrusion Detection Systems are only as effective as their detection rules. Learn how to craft custom Suricata rules 
+                        that detect real threats while minimizing false positives.
+                    </p>
+
+                    <div class="article-meta">
+                        <span class="author">
+                            <i class="fas fa-user-circle"></i>
+                            Security Professional
+                        </span>
+                        <span class="date">
+                            <i class="fas fa-calendar"></i>
+                            November 30, 2024
+                        </span>
+                    </div>
+
+                    <a href="#" class="read-more">Read Full Article →</a>
+                </article>
+
+                <!-- Article 4 -->
+                <article class="blog-card">
+                    <div class="article-header">
+                        <span class="category">Penetration Testing</span>
+                        <span class="read-time"><i class="fas fa-clock"></i> 9 min read</span>
+                    </div>
+
+                    <h3>Common Web Vulnerabilities and Remediation Strategies</h3>
+                    <p class="excerpt">
+                        OWASP Top 10 vulnerabilities remain the most prevalent security issues in web applications. This article examines each 
+                        vulnerability type and practical remediation approaches.
+                    </p>
+
+                    <div class="article-meta">
+                        <span class="author">
+                            <i class="fas fa-user-circle"></i>
+                            Security Professional
+                        </span>
+                        <span class="date">
+                            <i class="fas fa-calendar"></i>
+                            November 22, 2024
+                        </span>
+                    </div>
+
+                    <a href="#" class="read-more">Read Full Article →</a>
+                </article>
+
+                <!-- Article 5 -->
+                <article class="blog-card">
+                    <div class="article-header">
+                        <span class="category">Malware Analysis</span>
+                        <span class="read-time"><i class="fas fa-clock"></i> 10 min read</span>
+                    </div>
+
+                    <h3>Introduction to Malware Analysis: Static vs Dynamic</h3>
+                    <p class="excerpt">
+                        Understanding malware behavior is essential for threat response. This comprehensive guide covers both static and dynamic 
+                        analysis techniques with practical examples.
+                    </p>
+
+                    <div class="article-meta">
+                        <span class="author">
+                            <i class="fas fa-user-circle"></i>
+                            Security Professional
+                        </span>
+                        <span class="date">
+                            <i class="fas fa-calendar"></i>
+                            November 15, 2024
+                        </span>
+                    </div>
+
+                    <a href="#" class="read-more">Read Full Article →</a>
+                </article>
+
+                <!-- Article 6 -->
+                <article class="blog-card">
+                    <div class="article-header">
+                        <span class="category">Security Research</span>
+                        <span class="read-time"><i class="fas fa-clock"></i> 5 min read</span>
+                    </div>
+
+                    <h3>My Learning Journey: From Theory to Practice</h3>
+                    <p class="excerpt">
+                        Reflecting on my transition from academic cybersecurity education to hands-on security practice. Lessons learned and 
+                        skills that matter most in real-world scenarios.
+                    </p>
+
+                    <div class="article-meta">
+                        <span class="author">
+                            <i class="fas fa-user-circle"></i>
+                            Security Professional
+                        </span>
+                        <span class="date">
+                            <i class="fas fa-calendar"></i>
+                            November 8, 2024
+                        </span>
+                    </div>
+
+                    <a href="#" class="read-more">Read Full Article →</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies Section -->
+    <section class="case-studies">
+        <div class="container">
+            <h2 class="section-title">Case Studies & Research Papers</h2>
+
+            <div class="case-study-grid">
+                <div class="case-study-card">
+                    <div class="cs-header">
+                        <h3>Case Study: Ransomware Incident Analysis</h3>
+                        <span class="cs-type">Forensic Analysis</span>
+                    </div>
+                    <p>
+                        A detailed analysis of a ransomware infection incident including recovery procedures, timeline reconstruction, 
+                        and attacker behavior profiling.
+                    </p>
+                    <div class="cs-highlights">
+                        <span><strong>Techniques:</strong> File carving, registry analysis, C&C communication tracking</span>
+                    </div>
+                    <a href="#" class="btn btn-secondary">View Case Study</a>
+                </div>
+
+                <div class="case-study-card">
+                    <div class="cs-header">
+                        <h3>Research: Network Anomaly Detection Patterns</h3>
+                        <span class="cs-type">Network Security</span>
+                    </div>
+                    <p>
+                        Research paper on identifying unusual network traffic patterns that indicate compromise or intrusion attempts 
+                        using statistical analysis and machine learning concepts.
+                    </p>
+                    <div class="cs-highlights">
+                        <span><strong>Focus:</strong> Pattern recognition, threat intelligence integration</span>
+                    </div>
+                    <a href="#" class="btn btn-secondary">Read Paper</a>
+                </div>
+
+                <div class="case-study-card">
+                    <div class="cs-header">
+                        <h3>Technical Report: Mobile Device Forensics</h3>
+                        <span class="cs-type">Digital Forensics</span>
+                    </div>
+                    <p>
+                        Comprehensive technical report on iOS and Android forensic examination methodologies, evidence recovery 
+                        techniques, and documentation standards.
+                    </p>
+                    <div class="cs-highlights">
+                        <span><strong>Coverage:</strong> iOS analysis, Android artifacts, chain of custody</span>
+                    </div>
+                    <a href="#" class="btn btn-secondary">View Report</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Stay Updated on My Research</h2>
+                <p>Subscribe to receive updates on new articles, research findings, and cybersecurity insights.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="your@email.com" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>CyberProfile</h4>
+                    <p>A modern portfolio showcasing cybersecurity expertise and digital forensics research.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Social</h4>
+                    <div class="social-links">
+                        <a href="https://linkedin.com" target="_blank" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com" target="_blank" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="mailto:hello@example.com" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Cybersecurity Portfolio. Designed with <span class="heart">♡</span> for security professionals.</p>
+            </div>
+        </div>
+    </footer>
+
+    <style>
+        .page-header {
+            background: linear-gradient(135deg, rgba(0, 212, 255, 0.1) 0%, rgba(124, 58, 237, 0.1) 100%);
+            border-bottom: 1px solid var(--border-color);
+            padding: 120px 0 80px;
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        .page-header h1 {
+            margin-bottom: 1rem;
+            background: var(--gradient-text);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .page-header p {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+        }
+
+        .blog-section {
+            padding: 6rem 0;
+        }
+
+        .blog-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .section-subtitle {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-top: 1rem;
+        }
+
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 2rem;
+        }
+
+        .blog-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 0.5rem;
+            padding: 2rem;
+            transition: var(--transition);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .blog-card:hover {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 20px rgba(0, 212, 255, 0.1);
+            transform: translateY(-5px);
+        }
+
+        .blog-card.featured {
+            border: 2px solid var(--primary-color);
+            grid-column: span 1;
+        }
+
+        @media (min-width: 1024px) {
+            .blog-card.featured {
+                grid-column: span 2;
+            }
+        }
+
+        .article-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+            font-size: 0.85rem;
+        }
+
+        .category {
+            background: rgba(0, 212, 255, 0.15);
+            color: var(--primary-color);
+            padding: 0.3rem 0.8rem;
+            border-radius: 50px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .read-time {
+            color: var(--text-muted);
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+        }
+
+        .blog-card h3 {
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+            line-height: 1.4;
+        }
+
+        .excerpt {
+            margin-bottom: 1rem;
+            flex-grow: 1;
+            line-height: 1.7;
+        }
+
+        .article-meta {
+            display: flex;
+            gap: 1.5rem;
+            margin-bottom: 1.5rem;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .author, .date {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+        }
+
+        .read-more {
+            color: var(--primary-color);
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            transition: var(--transition);
+        }
+
+        .read-more:hover {
+            gap: 0.5rem;
+        }
+
+        /* Case Studies */
+        .case-studies {
+            background: var(--bg-secondary);
+            padding: 6rem 0;
+        }
+
+        .case-study-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .case-study-card {
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border-color);
+            border-radius: 0.5rem;
+            padding: 2rem;
+            transition: var(--transition);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .case-study-card:hover {
+            border-color: var(--primary-color);
+            transform: translateY(-3px);
+        }
+
+        .cs-header {
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        .cs-header h3 {
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .cs-type {
+            font-size: 0.85rem;
+            color: var(--primary-color);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .case-study-card p {
+            flex-grow: 1;
+            margin-bottom: 1.5rem;
+        }
+
+        .cs-highlights {
+            background: rgba(0, 212, 255, 0.05);
+            border-left: 3px solid var(--primary-color);
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            border-radius: 0.3rem;
+            font-size: 0.9rem;
+        }
+
+        /* Newsletter */
+        .newsletter-form {
+            display: flex;
+            gap: 1rem;
+            max-width: 500px;
+            margin: 0 auto;
+            margin-top: 2rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .newsletter-form input {
+            flex: 1;
+            min-width: 200px;
+            padding: 0.75rem 1rem;
+            background: var(--bg-dark);
+            border: 2px solid var(--border-color);
+            border-radius: 0.4rem;
+            color: var(--text-primary);
+            font-size: 1rem;
+            transition: var(--transition);
+        }
+
+        .newsletter-form input:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 10px rgba(0, 212, 255, 0.2);
+        }
+
+        @media (max-width: 768px) {
+            .blog-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .blog-card.featured {
+                grid-column: span 1;
+            }
+
+            .page-header {
+                padding: 100px 0 60px;
+            }
+
+            .article-meta {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+
+            .newsletter-form input {
+                min-width: 100%;
+            }
+        }
+    </style>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
